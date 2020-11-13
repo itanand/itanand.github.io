@@ -121,14 +121,16 @@
     background: none;
 
 }
-/* abpout section styling */
+
+/** Similar Coding **/
+
 .section{
     padding: 100px 0;
 }
-.about{
+.about, .services{
     font-family: 'Poppins', 'sans-serif';
 }
-.about .title{
+.section .title{
     position: relative;
     text-align: center;
     font-size: 30px;
@@ -137,7 +139,7 @@
     padding-bottom: 15px;
     font-family: 'Ubuntu', 'san-serif';
 }
-.about .title::before{
+.section .title::before{
     content: "";
     position: absolute;
     bottom: 0px;
@@ -148,7 +150,7 @@
     transform: translateX(-50%);
     
 }
-.about .title::after{
+.section .title::after{
     content: "Who i am";
     position: absolute;
     bottom: -12px;
@@ -159,7 +161,13 @@
     background: #fff;
     transform: translateX(-50%);
 }
-.about .about-content{
+/* abpout section styling */
+
+.about .title::after{
+    content: "Who i am";
+}
+.about .about-content,
+.services .serv-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -206,6 +214,31 @@
     background: none;
 
 }
+ /* Services Section Start ***/
+.services{
+    color: #fff;
+    background : #111;
+
+}
+.services .title::before{
+    background: #fff;
+}
+.services .title::after{
+    background: #111;
+    content: "What i provide"
+    
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+
+
 /* Responsive media query start */
 @media(max-width: 1104px){
     .home .max-width{

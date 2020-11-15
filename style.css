@@ -23,7 +23,7 @@
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #F69E7B;
+    background: #F58B54;
 
 }
 .navbar .max-width{
@@ -38,7 +38,7 @@
 
 }
 .navbar .logo a span{
-    color: #F69E7B;
+    color: #F58B54;
 }
 .navbar.sticky .logo a span{
     color: #fff;
@@ -58,7 +58,7 @@
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #F69E7B;
+    color: #F58B54;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -102,22 +102,22 @@
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #31112C;
+    color: #F58B54;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #F69E7B;
+    background: #F58B54;
     color: #fff;
     font-size: 25px;
     padding:12px 36px;
     margin-top:20px;  
     border-radius: 6px;
-    border: 2px solid #F69E7B;
+    border: 2px solid #F58B54;
     transition: all 0,3s ease;
 }
 .home .home-content a:hover{
-    color: #F69E7B;
+    color: #F58B54;
     background: none;
 
 }
@@ -156,7 +156,7 @@
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: #F69E7B;
+    color: #F58B54;
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -192,25 +192,25 @@
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #F69E7B;
+    color: #F58B54;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #F69E7B;
+    background: #F58B54;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top:20px;  
     border-radius: 6px;
-    border: 2px solid #F69E7B;
+    border: 2px solid #F58B54;
     transition: all 0,3s ease;
 }
 .about .about-content .right a:hover{
-    color: #F69E7B;
+    color: #F58B54;
     background: none;
 
 }
